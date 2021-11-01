@@ -7,13 +7,13 @@ Features:
  - Basic messaging
  - Minimalistic text/terminal based UI
  - [P2P](https://en.wikipedia.org/wiki/Peer-to-peer) connection between clients
- - SSL/TLS encryption
+ - SSL/TLS e2e encryption
 
 Build requrements:
- - C compiler with standart library, `gcc` for example
+ - C compiler with standard library, `gcc` for example
  - `gnutls`
  - `curses` or `ncurses`
- - `pthreads`, might be unstalled with C standart library
+ - `pthreads`, might be installed with C standard library
 
 Link to read for developing:
  - [Изучая go: пишем p2p мессенджер со сквозным шифрованием](https://habr.com/ru/post/437686/)
