@@ -22,4 +22,5 @@ Link to read for developing:
  - [Изучая go: пишем p2p мессенджер со сквозным шифрованием](https://habr.com/ru/post/437686/)
  - [Analysis of P2P: How to communicate between two terminals without public IP?](https://www.programmersought.com/article/23564027459/)
  - [Creating a Peer to Peer Network in C](https://www.youtube.com/watch?v=oHBi8k31fgM)
+ - [TCP hole punching](https://en.wikipedia.org/wiki/TCP_hole_punching)
 
