@@ -25,4 +25,5 @@ Link to read for developing:
  - [TCP hole punching](https://en.wikipedia.org/wiki/TCP_hole_punching)
  - [Peer-to-Peer Communication Across Network Address Translators](https://bford.info/pub/net/p2pnat/)
  - [Traversal Using Relays around NAT](https://en.wikipedia.org/wiki/Traversal_Using_Relays_around_NAT)
+ - [A simple UDP-based NAT hole punching example for C](https://github.com/ckennelly/hole-punch)
 
