@@ -1,5 +1,8 @@
 # telegraph
-Terminal P2P messenger implemented in C
+
+Terminal P2P messenger implemented in C.
+
+This project was created for education purposes.
 
 ** WORK IN PROGRESS **
 
