@@ -24,4 +24,5 @@ Link to read for developing:
  - [Creating a Peer to Peer Network in C](https://www.youtube.com/watch?v=oHBi8k31fgM)
  - [TCP hole punching](https://en.wikipedia.org/wiki/TCP_hole_punching)
  - [Peer-to-Peer Communication Across Network Address Translators](https://bford.info/pub/net/p2pnat/)
+ - [Traversal Using Relays around NAT](https://en.wikipedia.org/wiki/Traversal_Using_Relays_around_NAT)
 
