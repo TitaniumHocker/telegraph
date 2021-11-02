@@ -41,4 +41,5 @@ Link to read for developing:
  - [Simple threadpool implementation](https://programmer.group/c-simple-thread-pool-based-on-pthread-implementation.html)
  - [Multithreading with a Thread Pool in C](https://www.youtube.com/watch?v=WmDOHh7k0Ag)
  - [Building from different source folders to different target folders](https://riptutorial.com/makefile/example/21376/building-from-different-source-folders-to-different-target-folders)
-
+ - [About byteorder](https://www.youtube.com/watch?v=OoHich9BPxg)
+ - [passing a struct over TCP (SOCKi\_STREAM) socket in C](https://stackoverflow.com/questions/8000851/passing-a-struct-over-tcp-sock-stream-socket-in-c)
