@@ -15,6 +15,8 @@ This project was created for education purposes.
 
 ** WORK IN PROGRESS **
 
+DEFAULTPOST: 1858
+
 Features:
  - Basic messaging
  - Minimalistic text/terminal based UI
@@ -24,6 +26,7 @@ Features:
 Build requrements:
  - C compiler with standard library, `gcc` for example
  - `gnutls`
+ - `libuuid` that can be part of `e2fsprogs` or `util-linux`
  - `curses` or `ncurses`
  - `pthreads`, might be installed with C standard library
 
@@ -35,4 +38,7 @@ Link to read for developing:
  - [Peer-to-Peer Communication Across Network Address Translators](https://bford.info/pub/net/p2pnat/)
  - [Traversal Using Relays around NAT](https://en.wikipedia.org/wiki/Traversal_Using_Relays_around_NAT)
  - [A simple UDP-based NAT hole punching example for C](https://github.com/ckennelly/hole-punch)
+ - [Simple threadpool implementation](https://programmer.group/c-simple-thread-pool-based-on-pthread-implementation.html)
+ - [Multithreading with a Thread Pool in C](https://www.youtube.com/watch?v=WmDOHh7k0Ag)
+ - [Building from different source folders to different target folders](https://riptutorial.com/makefile/example/21376/building-from-different-source-folders-to-different-target-folders)
 
