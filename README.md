@@ -30,6 +30,7 @@ Build requrements:
  - `pthreads`, might be installed with C standard library
 
 Links to read for developing:
+ - [Simple UDP multicast example in C](https://gist.github.com/hostilefork/f7cae3dc33e7416f2dd25a402857b6c6)
  - [Изучая go: пишем p2p мессенджер со сквозным шифрованием](https://habr.com/ru/post/437686/)
  - [Analysis of P2P: How to communicate between two terminals without public IP?](https://www.programmersought.com/article/23564027459/)
  - [TCP hole punching](https://en.wikipedia.org/wiki/TCP_hole_punching)
@@ -37,10 +38,10 @@ Links to read for developing:
  - [Traversal Using Relays around NAT](https://en.wikipedia.org/wiki/Traversal_Using_Relays_around_NAT)
  - [Simple threadpool implementation](https://programmer.group/c-simple-thread-pool-based-on-pthread-implementation.html)
  - [Building from different source folders to different target folders](https://riptutorial.com/makefile/example/21376/building-from-different-source-folders-to-different-target-folders)
- - [passing a struct over TCP (SOCKi\_STREAM) socket in C](https://stackoverflow.com/questions/8000851/passing-a-struct-over-tcp-sock-stream-socket-in-c)
+ - [passing a struct over TCP (SOCK\_STREAM) socket in C](https://stackoverflow.com/questions/8000851/passing-a-struct-over-tcp-sock-stream-socket-in-c)
  - [A simple UDP-based NAT hole punching example for C](https://github.com/ckennelly/hole-punch)
 
-Links to warch for developing:
+Links to watch for developing:
  - [Creating a Peer to Peer Network in C](https://www.youtube.com/watch?v=oHBi8k31fgM)
  - [Multithreading with a Thread Pool in C](https://www.youtube.com/watch?v=WmDOHh7k0Ag)
  - [About byteorder](https://www.youtube.com/watch?v=OoHich9BPxg)
