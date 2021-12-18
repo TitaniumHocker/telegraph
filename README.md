@@ -40,6 +40,7 @@ Links to read for developing:
  - [Building from different source folders to different target folders](https://riptutorial.com/makefile/example/21376/building-from-different-source-folders-to-different-target-folders)
  - [passing a struct over TCP (SOCK\_STREAM) socket in C](https://stackoverflow.com/questions/8000851/passing-a-struct-over-tcp-sock-stream-socket-in-c)
  - [A simple UDP-based NAT hole punching example for C](https://github.com/ckennelly/hole-punch)
+ - [Peer-to-Peer Programming](http://cs.berry.edu/~nhamid/p2p/)
 
 Links to watch for developing:
  - [Creating a Peer to Peer Network in C](https://www.youtube.com/watch?v=oHBi8k31fgM)
