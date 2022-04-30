@@ -53,4 +53,4 @@ dkms.conf
 
 # Build objects
 build/
-
+dist/

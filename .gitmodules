@@ -1,0 +1,9 @@
+[submodule "lib/cvector"]
+	path = lib/cvector
+	url = https://github.com/eteran/c-vector
+[submodule "lib/thpool"]
+	path = lib/thpool
+	url = https://github.com/Pithikos/C-Thread-Pool
+[submodule "lib/termbox"]
+	path = lib/termbox
+	url = https://github.com/termbox/termbox2
