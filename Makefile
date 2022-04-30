@@ -1,15 +1,30 @@
 CC=cc
-CFLAGS=-Wall -std=c99 -O3
+CFLAGS=-static -Wall -std=c99 -O3
+
+FORMATTER=clang-format
+FFLAGS=-i
+
+LINTER=splint
+LFLAGS=
+
 SOURCE=src
 BUILD=build
-EXE=telegraph
+PROGRAM=telegraph
 
 
-all: $(BUILD)/$(EXE)
+all: $(BUILD)/$(PROGRAM)
 
-$(BUILD)/$(EXE): $(SOURCE)/**.[ch]
+$(BUILD)/$(PROGRAM): $(SOURCE)/**.[ch]
 	mkdir -p $(BUILD)
 	$(CC) $(CFLAGS) -o $@ $^
 
 clean:
 	rm -rf $(BUILD)
+
+format:
+	find ./src -type f -name '*.[ch]' -exec $(FORMATTER) $(FFLAGS) {} \;
+
+fmt: format
+
+lint:
+	find ./src -type f -name '*.[ch]' -exec $(LINTER) $(LFLAGS) {} \;
