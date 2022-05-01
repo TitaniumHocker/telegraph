@@ -41,6 +41,9 @@ Links to read for developing:
  - [Peer-to-Peer Programming](http://cs.berry.edu/~nhamid/p2p/)
  - [Resources for Developing P2P Protocols across NAT](https://www.linuxjournal.com/article/9072)
  - [Developing P2P Protocols across NAT](https://www.linuxjournal.com/article/9004)
+ - [Hole Punch: UDP NAT Punching](https://github.com/ckennelly/hole-punch)
+ - [UDP Hole Punching Proof implementations](https://github.com/JacopoDaeli/udp-holepunching-proof)
+ - [UDP Hole Punching Examples](https://github.com/mwarning/UDP-hole-punching-examples)
 
 Links to watch for developing:
  - [Creating a Peer to Peer Network in C](https://www.youtube.com/watch?v=oHBi8k31fgM)
