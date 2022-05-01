@@ -1,5 +1,6 @@
-CC=clang
-CFLAGS=-Wall -std=c99
+CC=cc
+CFLAGS=-Wall -std=c99 -O3
+CLIBS=$(shell pkg-config --cflags --libs gnutls)
 
 FORMATTER=clang-format
 FFLAGS=-i --style=LLVM
@@ -27,7 +28,7 @@ all: $(DISTDIR)/$(BIN)
 
 $(DISTDIR)/$(BIN): $(OBJ) $(TERMBOX) $(THPOOL) $(CVECTOR)
 	mkdir -p $(DISTDIR)
-	$(CC) $(CFLAGS) $^ -o $@
+	$(CC) $(CFLAGS) $(CLIBS) $^ -o $@
 
 $(OBJ): $(SRC)
 	mkdir -p $(BUILDDIR)
@@ -55,3 +56,6 @@ fmt:
 
 lint:
 	find ./src -type f -name '*.[ch]' -exec $(LINTER) $(LFLAGS) {} \;
+
+run: $(DISTDIR)/$(BIN)
+	./$^
