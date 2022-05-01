@@ -26,8 +26,6 @@ Features:
 Build requrements:
  - C compiler with standard library, `gcc` for example
  - `gnutls`
- - `curses` or `ncurses`
- - `pthreads`, might be installed with C standard library
 
 Links to read for developing:
  - [Simple UDP multicast example in C](https://gist.github.com/hostilefork/f7cae3dc33e7416f2dd25a402857b6c6)
@@ -41,6 +39,8 @@ Links to read for developing:
  - [passing a struct over TCP (SOCK\_STREAM) socket in C](https://stackoverflow.com/questions/8000851/passing-a-struct-over-tcp-sock-stream-socket-in-c)
  - [A simple UDP-based NAT hole punching example for C](https://github.com/ckennelly/hole-punch)
  - [Peer-to-Peer Programming](http://cs.berry.edu/~nhamid/p2p/)
+ - [Resources for Developing P2P Protocols across NAT](https://www.linuxjournal.com/article/9072)
+ - [Developing P2P Protocols across NAT](https://www.linuxjournal.com/article/9004)
 
 Links to watch for developing:
  - [Creating a Peer to Peer Network in C](https://www.youtube.com/watch?v=oHBi8k31fgM)
