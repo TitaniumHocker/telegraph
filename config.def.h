@@ -1,0 +1,6 @@
+#ifndef __TELEGRAPH_CONFIG_H__
+#define __TELEGRAPH_CONFIG_H__
+
+#define TELEGRAPH_RENDEZVOUS_PORT 1858
+
+#endif
