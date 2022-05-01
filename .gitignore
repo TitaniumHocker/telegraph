@@ -54,3 +54,4 @@ dkms.conf
 # Build objects
 build/
 dist/
+config.h
